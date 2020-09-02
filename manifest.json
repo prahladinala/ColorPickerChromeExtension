@@ -1,0 +1,17 @@
+{
+    "name": "PR Color Picker",
+    "version": "1.0.0",
+    "description": "Quick Launch Color Picker",
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": { "16": "icon16.png",
+        "48": "icon48.png",
+       "128": "logo_128.png" },
+    "browser_action": {
+        "default_title": "PR_Color_Picker",
+        "default_icon": "logo_128.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
